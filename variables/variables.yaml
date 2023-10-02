@@ -1,0 +1,22 @@
+BrowserLib:
+  URL: https://pl.wikipedia.org/wiki/
+  search_input:  input.cdx-text-input__input
+  search_button: button.cdx-button.cdx-button--action-default.cdx-button--weight-normal.cdx-button--size-medium.cdx-button--framed.cdx-search-input__end-button
+  img_url: https://upload.wikimedia.org/wikipedia/commons/f/f8/Apollo11logo.jpg
+  img: //img[@src="//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Apollo_11_insignia.png/198px-Apollo_11_insignia.png"]
+  img_href_to_download: a.mw-mmv-download-button
+  download_button: a.mw-ui-button.mw-ui-progressive.mw-mmv-download-go-button
+
+Selenium:
+  page_url: https://en.wikipedia.org/
+  search_input: css:input.cdx-text-input__input
+  search_button: css:a.cdx-menu-item__content
+  image_element: xpath://img[@src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Robot-framework-logo.png/250px-Robot-framework-logo.png"]
+
+Cat_api:
+  api_url: https://catfact.ninja/#/Facts/getRandomFact
+
+Email:
+  IMAP_Server: imap.wp.pl
+  email: zapiekanka_01_01_2000@wp.pl
+  password: raznawozie^razpodwozem_
